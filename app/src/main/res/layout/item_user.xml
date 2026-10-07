@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile"
+        android:layout_margin="10dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ana Garcia"
+            android:textColor="@color/black"
+            android:textSize="24sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvAlias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ana123"
+            android:textColor="@color/black"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_sarrow"
+        android:layout_margin="10dp"></ImageView>
+</LinearLayout>
