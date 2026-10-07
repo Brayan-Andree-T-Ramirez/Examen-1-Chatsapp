@@ -43,7 +43,7 @@
                 android:layout_marginStart="4dp"
                 android:text="✓✓"
                 android:textSize="12sp"
-                android:textColor="#0D6EFD" />
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
